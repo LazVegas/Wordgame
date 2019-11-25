@@ -1,25 +1,88 @@
-#container {
+#game {
+    width: 320px;
+    margin: 0 auto;
+    background-color: #ccc;
+}
+
+#title {
     width: 50%;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #dddddd;
-    margin: 10% auto;
+    margin: 10px auto;
+    font-size: 30px;
+    color: royalblue;
+}
+
+#underscores {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px auto;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0px;
+    padding-bottom: 2px;
+}
+
+#hangman {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    background: url("./hangman.jpg");
+    background-position: 160px -160px;
+}
+
+#hangman.one {
+    background-position: 0 0;
+    margin: 0 auto;
+}
+
+#hangman.two {
+    background-position: -160px 0;
+    margin: 0 auto;
+}
+
+#hangman.three {
+    background-position: -320px 0;
+    margin: 0 auto;
+}
+
+#hangman.four {
+    background-position: -480px 0;
+    margin: 0 auto;
+}
+
+#hangman.five {
+    background-position: -640px 0;
+    margin: 0 auto;
+}
+
+#hangman.six {
+    background-position: 0 -160px;
+    margin: 0 auto;
+}
+
+#hangman.seven {
+    background-position: -160px -160px;
+    margin: 0 auto;
+}
+
+#hangman.eight {
+    background-position: -320px -160px;
+    margin: 0 auto;
+}
+
+#hangman.nine {
+    background-position: -488px -160px;
+    margin: 0 auto;
+}
+
+#gameOver {
+    background-color: white;
+    color: royalblue;
     text-align: center;
-}
-
-#letters a {
-color: green;
-background-color: darkgray;
-border-radius: 5px;
-padding: 5px;
-cursor: pointer;
-}
-
-#letters a:hover {
-    color: red;
-}
-
-#letters a .de {
-    color: yellow;
-    text-decoration: underline;
 }
